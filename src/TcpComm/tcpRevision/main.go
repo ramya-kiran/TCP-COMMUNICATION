@@ -115,18 +115,3 @@ func ClientConnect() {
 	}
 	return
 }
-
-// reader := bufio.NewReader(c)
-
-// for {
-// 	c.SetDeadline(time.Now().Add(5 * time.Second))
-// 	line, e := reader.ReadBytes('\n')
-// 	if e != nil && e != io.EOF {
-// 		log.Fatal("Inside handle connection error")
-// 	} else if e == io.EOF {
-// 		log.Fatal("Inside end of file")
-// 	}
-
-// 	fmt.Printf("The received string is %s\n", line[:len(line)-1])
-
-// }
